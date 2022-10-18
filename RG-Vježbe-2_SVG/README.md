@@ -15,6 +15,6 @@ SVG je zapravo XML jezik koji prikazuje 2D vektorske grafike. S obzirom na to da
 
 SVG je široko korišten u web UI razvoju i smatram njegovo učenje korisnim. Osim CSSa, animacije na webu većinom su rađene u SVGu.
 
-##### Zadatak 7b
+##### Zadatak 7b ([link](https://marinolinic.github.io/racunalna-grafika/RG-Vje%C5%BEbe-2_SVG/zadatak7b.html))
 
 <img src="zadatak7b.png" alt="zadatak 7b" width="50%" height="auto">
