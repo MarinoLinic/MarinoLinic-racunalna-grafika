@@ -2,7 +2,7 @@
 title: Vježbe 2 - SVG
 author: Marino Linić
 date: 13 October 2022
-image: zadatak7b.png
+image: https://marinolinic.github.io/MarinoLinic-racunalna-grafika/RG-Vje%C5%BEbe-2_SVG/zadatak7b.png
 ---
 
 ## Vježbe 2 - SVG
@@ -15,6 +15,6 @@ SVG je zapravo XML jezik koji prikazuje 2D vektorske grafike. S obzirom na to da
 
 SVG je široko korišten u web UI razvoju i smatram njegovo učenje korisnim. Osim CSSa, animacije na webu većinom su rađene u SVGu.
 
-##### Zadatak 7b ([izvorni kôd](https://github.com/MarinoLinic/racunalna-grafika/blob/main/RG-Vje%C5%BEbe-2_SVG/zadatak7b.html) | [postavljeni HTML na webu](https://marinolinic.github.io/racunalna-grafika/RG-Vje%C5%BEbe-2_SVG/zadatak7b.html))
+##### Zadatak 7b ([izvorni kôd](https://github.com/MarinoLinic/MarinoLinic-racunalna-grafika/blob/main/RG-Vje%C5%BEbe-2_SVG/zadatak7b.html) | [postavljeni HTML na webu](https://marinolinic.github.io/MarinoLinic-racunalna-grafika/RG-Vje%C5%BEbe-2_SVG/zadatak7b.html))
 
 <img src="zadatak7b.png" alt="zadatak 7b" width="50%" height="auto">
