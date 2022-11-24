@@ -8,10 +8,6 @@ let NumVertices = 36
 let points = []
 let colors = []
 
-let xAxis = 0
-let yAxis = 1
-let zAxis = 2
-
 let axis = 0
 let theta = [30, 20, 10]
 let thetaLoc
@@ -20,8 +16,13 @@ window.onload = function init() {
 	canvas = document.getElementById('gl-canvas')
 
 	gl = WebGLUtils.setupWebGL(canvas)
+
 	if (!gl) {
-		alert("WebGL isn't available")
+		gl = canvas.getContext('experimental-webgl')
+	}
+
+	if (!gl) {
+		alert('Vaš preglednik ne podržava WebGL')
 	}
 
 	colorCube()
