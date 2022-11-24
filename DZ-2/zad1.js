@@ -1,5 +1,5 @@
 const vertices = [-0.5, 0.5, 0.0, -0.5, -0.5, 0.0, 0.5, -0.5, 0.0]
-const colors = [0, 0, 1, 1, 0, 0, 0, 1, 0]
+const colors = [-0.5, 0.5, 0.5, -0.5, -0.5, 1.0, 0.5, -0.5, 0.0]
 const indices = [0, 1, 2]
 
 window.onload = function init() {
@@ -75,16 +75,16 @@ window.onload = function init() {
 	gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, index_Buffer)
 	gl.bindBuffer(gl.ARRAY_BUFFER, color_buffer)
 
-	var color = gl.getAttribLocation(shaderProgram, 'color')
-	gl.vertexAttribPointer(color, 3, gl.FLOAT, false, 0, 0)
-	gl.enableVertexAttribArray(color)
-
 	let coord = gl.getAttribLocation(shaderProgram, 'coordinates')
 	gl.vertexAttribPointer(coord, 3, gl.FLOAT, false, 0, 0)
 	gl.enableVertexAttribArray(coord)
 
+	var color = gl.getAttribLocation(shaderProgram, 'color')
+	gl.vertexAttribPointer(color, 3, gl.FLOAT, false, 0, 0)
+	gl.enableVertexAttribArray(color)
+
 	// CRTANJE
-	gl.clearColor(0, 0, 0, 1.0)
+	gl.clearColor(1, 1, 1, 1.0)
 	gl.enable(gl.DEPTH_TEST)
 	gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT)
 
